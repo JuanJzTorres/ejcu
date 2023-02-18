@@ -1,0 +1,536 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejercicios y Evaluaciones para Física General. Física contemporánea: Relatividad Especial e Introducción a la Mecánica Cuántica </title>
+<style>
+body {
+background-color: lightblue;
+font-family: Helvetica;
+}
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 250px;
+background: beige;
+background-image: url("code_quantum.jpg");
+color: white;
+}
+
+label {
+display: block;
+}
+
+input {
+width: 30px;
+margin-left: 20px;
+}
+
+h2 {
+clear: both;
+padding-top: 20px;
+}
+
+button {
+width: 100px;
+margin-top: 20px;
+}
+
+</style>
+
+
+
+
+
+</head>
+<body>
+<div id="main">
+<div id="header">
+<h1>Física contemporánea: Relatividad Especial e Introducción a la Mecánica Cuántica</h1>
+</div>
+<form id="form1">
+
+
+
+<h1>Presentación</h1>
+<p>Estos ejercicios tienen como finalidad apoyar a estudiantes del primer año universitario en un curso de Física General. Puede servir también como apoyo para recordar y reforzar los conocimientos de física adquiridos previamente en el nivel de Bachillerato.</p>
+
+<p>Esta serie de ejercicios corresponde a la unidad 'Física contemporánea: Relatividad Especial e Introducción a la Mecánica Cuántica'. </p>
+
+<p>Autor: Juan José Jiménez Torres </p>
+
+
+<p> Los ejercicios y sus respectivas figuras, se encuentran basados en ejercicios planteados en distintas fuentes bibliográficas como los textos de Schad (1996), Resnick y Halliday (1981), Tippens (2001), Benson (1999, 1991) y Hewitt (1999). Estos ejercicios de física también fueron empleados para el trabajo que desarrollé en Jiménez-Torres (2006). </p>
+
+
+<A HREF="https://arxiv.org/abs/2302.08006"> Artículo publicado en arXiv: Physics Education (physics.ed-ph) </A>
+
+
+
+
+
+
+
+
+<h2>1) ¿Cuál de los siguientes fenómenos demostró la existencia de los fotones? </h2>
+<label for="sub_string"><input type="radio" name="p2" value="0" id="sub_string"/> a) Refracción </label>
+<label for="sub_join"><input type="radio" name="p2" value="0" id="sub_join"/> b) Dilatación del tiempo </label>
+<label for="sub_info"><input type="radio" name="p2" value="0" id="sub_info" />  c) Interferencia </label>
+<label for="sub_condition"><input type="radio" name="p2" value="10" id="sub_condition" /> d) El efecto fotoeléctrico </label>
+<label for="sub_condition"><input type="radio" name="p2" value="0" id="sub_condition" /> e)  El efecto Zeeman </label>
+
+
+
+<h2>2) Un átomo de hidrógeno se encuentra en su estado base cuando su electrón. </h2>
+<label for="sub_string"><input type="radio" name="p3" value="0" id="sub_string"/> a) Está en reposo </label>
+<label for="sub_join"><input type="radio" name="p3" value="10" id="sub_join"/> b) Viaja en la órbita más pequeña posible alrededor del núcleo </label>
+<label for="sub_info"><input type="radio" name="p3" value="0" id="sub_info" />  c) Viaja en la órbita más grande posible alrededor del núcleo </label>
+<label for="sub_condition"><input type="radio" name="p3" value="0" id="sub_condition" /> d) Ha escapado del átomo </label>
+
+
+
+<h2>3) En el espectro de emisión del hidrógeno tenemos que </h2>
+<label for="sub_string"><input type="radio" name="p4" value="0" id="sub_string"/> a) Las líneas espectrales están uniformemente espaciadas. </label>
+<label for="sub_join"><input type="radio" name="p4" value="0" id="sub_join"/> b) Todos los saltos cuánticos se realizan desde la misma órbita electrónica </label>
+<label for="sub_info"><input type="radio" name="p4" value="0" id="sub_info" />  c) Todos los saltos cuánticos terminan  en la misma órbita electrónica </label>
+<label for="sub_condition"><input type="radio" name="p4" value="10" id="sub_condition" /> d) Cada línea espectral es el resultado de un fotón emitido durante un salto particular del electrón desde un nivel de energía (orbita) a otro </label>
+<label for="sub_condition"><input type="radio" name="p4" value="0" id="sub_condition" /> e)  Todas las líneas espectrales corresponden a frecuencias de la región visible del espectro electromagnético  </label>
+
+
+
+
+<h2>4) ¿Cuál de los siguientes saltos del electrón entre estados cuánticos de un átomo de hidrógeno emitirá el fotón con la frecuencia más alta. </h2>
+<label for="sub_string"><input type="radio" name="p5" value="0" id="sub_string"/> a) 2 a 3 </label>
+<label for="sub_join"><input type="radio" name="p5" value="10" id="sub_join"/> b) 3 a 2 </label>
+<label for="sub_info"><input type="radio" name="p5" value="0" id="sub_info" />  c) 4 a 3 </label>
+<label for="sub_condition"><input type="radio" name="p5" value="0" id="sub_condition" /> d) 3 a 4 </label>
+<label for="sub_condition"><input type="radio" name="p5" value="0" id="sub_condition" /> e) 4 a 5  </label>
+
+
+
+
+<h2>5) ¿Cuál es el color de la luz con frecuencia más alta? </h2>
+<label for="sub_string"><input type="radio" name="p6" value="0" id="sub_string"/> a) Rojo </label>
+<label for="sub_join"><input type="radio" name="p6" value="10" id="sub_join"/> b) Azul </label>
+<label for="sub_info"><input type="radio" name="p6" value="0" id="sub_info" />  c) Amarillo </label>
+<label for="sub_condition"><input type="radio" name="p6" value="0" id="sub_condition" /> d) Verde </label>
+<label for="sub_condition"><input type="radio" name="p6" value="0" id="sub_condition" /> e)  Naranja </label>
+
+
+
+
+<h2>6) ¿Cuánta energía es llevada por un fotón de luz roja si su longitud de onda es aproximadamente de 625 nm? </h2>
+<label for="sub_string"><input type="radio" name="p7" value="10" id="sub_string"/> a) 3.18 X 10<sup>-19</sup> J </label>
+<label for="sub_join"><input type="radio" name="p7" value="0" id="sub_join"/> b) 3.14 X 10<sup>16</sup> J </label>
+<label for="sub_info"><input type="radio" name="p7" value="0" id="sub_info" />  c) 4.80 X 10<sup>16</sup> J </label>
+<label for="sub_condition"><input type="radio" name="p7" value="0" id="sub_condition" /> d) 2.08 X 10<sup>-17</sup> J </label>
+<label for="sub_condition"><input type="radio" name="p7" value="0" id="sub_condition" /> e)  4.14 X 10<sup>-42</sup> J </label>
+
+
+
+
+<h2>7) ¿Cuál de los siguientes materiales puede mostrar un espectro de emisión en luz visible?. </h2>
+<label for="sub_string"><input type="radio" name="p10" value="0" id="sub_string"/> a) Sólidos y líquidos calentados hasta la incandescencia </label>
+<label for="sub_info"><input type="radio" name="p10" value="10" id="sub_info" />  b) Gases calientes </label>
+<label for="sub_condition"><input type="radio" name="p10" value="0" id="sub_condition" /> c) Gases fríos colocados en frente de un bulbo incandescente de luz </label>
+
+
+
+
+<h2>8) De acuerdo a la mecánica cuántica. </h2>
+<label for="sub_string"><input type="radio" name="p11" value="0" id="sub_string"/> a) Sólo las partículas pequeñas y con baja velocidad exhiben propiedades ondulatorias </label>
+<label for="sub_join"><input type="radio" name="p11" value="0" id="sub_join"/> b) Sólo las partículas cargadas exhiben propiedades ondulatorias </label>
+<label for="sub_info"><input type="radio" name="p11" value="0" id="sub_info" />  c) Ninguna partícula exhibe propiedades ondulatorias </label>
+<label for="sub_condition"><input type="radio" name="p11" value="10" id="sub_condition" /> d) Todas las partículas exhiben propiedades ondulatorias </label>
+<label for="sub_condition"><input type="radio" name="p11" value="0" id="sub_condition" /> e)  Todas las partículas con alta velocidad exhiben propiedades ondulatorias </label>
+
+
+
+<h2>9) De acuerdo a la mecánica cuántica el electrón en el átomo de hidrógeno gira alrededor del núcleo (protón) de la misma manera en que lo hacen los planetas alrededor del Sol. </h2>
+<label for="sub_string"><input type="radio" name="p12" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p12" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>10) El efecto fotoeléctrico demostró la naturaleza ondulatoria de los electrones. </h2>
+<label for="sub_string"><input type="radio" name="p13" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p13" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>11) Si todos los cuerpos materiales tienen una naturaleza ondulatoria y su longitud de onda puede ser calculada, ¿por qué no podemos observar los efectos ondulatorios de una persona caminando?. </h2>
+<label for="sub_string"><input type="radio" name="p14" value="0" id="sub_string"/> a) Porque la masa de una persona es demasiado grande comparada con la de partículas ligeras </label>
+<label for="sub_join"><input type="radio" name="p14" value="0" id="sub_join"/> b) Porque la velocidad de una persona caminando es demasiado pequeña comparada con la de la luz </label>
+<label for="sub_info"><input type="radio" name="p14" value="0" id="sub_info" />  c) Porque el valor de la constante de Planck es demasiado pequeño </label>
+<label for="sub_condition"><input type="radio" name="p14" value="10" id="sub_condition" /> d) Porque el valor de la longitud de onda es demasiado pequeño, que no hay manera de observar sus efectos </label>
+<label for="sub_condition"><input type="radio" name="p14" value="0" id="sub_condition" /> e) Porque el valor de la longitud de onda es demasiado grande, que no hay manera de observar sus efectos  </label>
+
+
+
+
+<h2>12) ¿Cuál es la longitud de onda de De Broglie de un electrón que se mueve con una velocidad de 10<sup>7</sup> m/s? (La masa del electrón es de 9.1 X 10<sup>-31</sup> kg). </h2>
+<label for="sub_string"><input type="radio" name="p15" value="0" id="sub_string"/> a) 1.37 X 10<sup>10</sup> m </label>
+<label for="sub_join"><input type="radio" name="p15" value="10" id="sub_join"/> b) 7.29 X 10<sup>-11</sup> m </label>
+<label for="sub_info"><input type="radio" name="p15" value="0" id="sub_info" />  c) 6.63 X 10<sup>-41</sup> m </label>
+<label for="sub_condition"><input type="radio" name="p15" value="0" id="sub_condition" /> d) 1.51 X 10<sup>40</sup> m </label>
+<label for="sub_condition"><input type="radio" name="p15" value="0" id="sub_condition" /> e)  6.03 X 10<sup>-57</sup> m </label>
+
+
+
+
+<h2>13) De acuerdo al contexto clásico de Newton </h2>
+<label for="sub_string"><input type="radio" name="p16" value="0" id="sub_string"/> a) La velocidad de la luz en el vacío es una constante </label>
+<label for="sub_join"><input type="radio" name="p16" value="0" id="sub_join"/> b) La fuerza de gravedad se vuelve cero en el espacio </label>
+<label for="sub_info"><input type="radio" name="p16" value="10" id="sub_info" />  c) El tiempo y la distancia son siempre las mismas para todos los observadores </label>
+<label for="sub_condition"><input type="radio" name="p16" value="0" id="sub_condition" /> d) El tiempo y la distancia pueden ser diferentes para distintos observadores </label>
+<label for="sub_condition"><input type="radio" name="p16" value="0" id="sub_condition" /> e)  La velocidad de la luz en el vacío tiene un valor infinito </label>
+
+
+
+<h2>14) De acuerdo al contexto relativista  </h2>
+<label for="sub_string"><input type="radio" name="p17" value="0" id="sub_string"/> a) El espacio es plano y el tiempo fluye uniformemente </label>
+<label for="sub_join"><input type="radio" name="p17" value="0" id="sub_join"/> b) Las leyes de la física dependen de la localización y la velocidad de los observadores </label>
+<label for="sub_info"><input type="radio" name="p17" value="0" id="sub_info" />  c) Los tiempos y distancias son siempre las mismas para todos los observadores </label>
+<label for="sub_condition"><input type="radio" name="p17" value="10" id="sub_condition" /> d) Los tiempos y las distancias pueden ser diferentes para distintos observadores </label>
+<label for="sub_condition"><input type="radio" name="p17" value="0" id="sub_condition" /> e)  La velocidad de la luz en el vacío tiene un valor infinito </label>
+
+
+
+<h2>15) La longitud propia de un lápiz corresponde a  </h2>
+<label for="sub_string"><input type="radio" name="p18" value="0" id="sub_string"/> a) La mínima longitud posible que el lápiz pueda tener </label>
+<label for="sub_join"><input type="radio" name="p18" value="0" id="sub_join"/> b) Su longitud promedio originada de la medición de varios observadores </label>
+<label for="sub_info"><input type="radio" name="p18" value="10" id="sub_info" />  c) La longitud del lápiz cuando está en reposo relativo a un observador </label>
+<label for="sub_condition"><input type="radio" name="p18" value="0" id="sub_condition" /> d) La longitud del lápiz cuando se mueve a la velocidad de la luz </label>
+<label for="sub_condition"><input type="radio" name="p18" value="0" id="sub_condition" /> e) La máxima longitud posible que el lápiz puede tener </label>
+
+
+
+
+<h2>16) ¿La ecuación E = mc<sup>2</sup> significa que la materia se transforma en energía cuando viaja al cuadrado de la velocidad de la luz? </h2>
+<label for="sub_string"><input type="radio" name="p20" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p20" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>17) ¿La dilatación del tiempo significa que el tiempo se mueve con más lentitud en los sistemas en movimiento? </h2>
+<label for="sub_string"><input type="radio" name="p21" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p21" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>18) Las mediciones del tiempo realizadas por dos observadores A y B coinciden si el observador A se desplaza con la mitad de la velocidad de la luz respecto al observador B </h2>
+<label for="sub_string"><input type="radio" name="p22" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p22" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>19) En el efecto fotoeléctrico, un haz de luz intenso desprende más electrones de una superficie fotosensible que un haz de luz tenue de la misma frecuencia, la cual es suficientemente grande para desprender electrones. </h2>
+<label for="sub_string"><input type="radio" name="p23" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p23" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>20) En el efecto fotoeléctrico, un haz de luz con una alta frecuencia desprende más electrones de una superficie fotosensible que un haz de luz con una frecuencia menor, la cual también puede desprende electrones al incidir en la superficie fotosensible. </h2>
+<label for="sub_string"><input type="radio" name="p24" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p24" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>21) ¿A qué se refiere al decir que una cantidad está cuantizada?. </h2>
+<label for="sub_string"><input type="radio" name="p25" value="0" id="sub_string"/> a) Que esa cantidad se puede contar  </label>
+<label for="sub_join"><input type="radio" name="p25" value="0" id="sub_join"/> b) Que esa cantidad se puede medir </label>
+<label for="sub_info"><input type="radio" name="p25" value="10" id="sub_info" />  c) Que esa cantidad se puede expresar en múltiplos enteros de otra </label>
+<label for="sub_condition"><input type="radio" name="p25" value="0" id="sub_condition" /> d) Que esa cantidad no se puede expresar en múltiplos enteros de otra </label>
+<label for="sub_condition"><input type="radio" name="p25" value="0" id="sub_condition" /> e) Que esa cantidad es una constante </label>
+
+
+
+
+<h2>22) Si la velocidad de los electrones de un haz "1" es mayor que la velocidad de los electrones de otro haz "2", entonces la longitud de onda de De Broglie de los electrones del haz "1" es mayor que la de los electrones del haz "2". </h2>
+<label for="sub_string"><input type="radio" name="p26" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p26" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>23) De acuerdo a la teoría especial de la relatividad, las mediciones del espacio, tiempo y masa son valores constantes para todos los observadores. </h2>
+<label for="sub_string"><input type="radio" name="p27" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p27" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>24) De acuerdo a la teoría espacial de la relatividad, la velocidad de la luz es relativa. </h2>
+<label for="sub_string"><input type="radio" name="p28" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p28" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>25) De acuerdo a la relatividad especial, las leyes de la física dependen del marco de referencia inercial en donde se encuentre un observador. </h2>
+<label for="sub_string"><input type="radio" name="p29" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p29" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>26) En el modelo de Bohr para el átomo de hidrógeno, ¿Qué aspecto es considerado como clásico?. </h2>
+<label for="sub_string"><input type="radio" name="p30" value="0" id="sub_string"/> a) La radiación es emitida por un electrón únicamente cuando este pasa de una órbita permitida a otra de energía menor </label>
+<label for="sub_join"><input type="radio" name="p30" value="10" id="sub_join"/> b) El movimiento del electrón en órbitas circulares, llamadas estados estacionarios </label>
+<label for="sub_info"><input type="radio" name="p30" value="0" id="sub_info" />  c) El ímpetu angular del electrón está restringido a múltiplos enteros de h/2π </label>
+
+
+
+
+<h2>27) Si una lámpara se enciende cuando se viaja a bordo de un automóvil, y la luz se dirige en la dirección del movimiento, entonces la velocidad de la luz aumenta para un observador que está en reposo fuera del automóvil. </h2>
+<label for="sub_string"><input type="radio" name="p31" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p31" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>28) El primer postulado de la relatividad especial asegura que únicamente las leyes de la mecánica son las mismas en todos los marcos de referencia con un movimiento uniforme. </h2>
+<label for="sub_string"><input type="radio" name="p32" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p32" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+
+<h2>29) Suponiendo que viajamos a la velocidad de la luz junto a un haz de luz, entonces veríamos que el haz estaría en reposo. </h2>
+<label for="sub_string"><input type="radio" name="p33" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p33" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>30) La masa y la energía son equivalentes. </h2>
+<label for="sub_string"><input type="radio" name="p34" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p34" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+
+
+<h2>31) Al interior del Sol ocurren reacciones nucleares que producen su energía solar, ¿Cuál es el efecto de la energía solar en la masa del Sol?. </h2>
+<label for="sub_string"><input type="radio" name="p36" value="0" id="sub_string"/> a) La masa del Sol aumenta </label>
+<label for="sub_join"><input type="radio" name="p36" value="10" id="sub_join"/> b) La masa del Sol disminuye </label>
+<label for="sub_info"><input type="radio" name="p36" value="0" id="sub_info" />  c) La masa del Sol se mantiene constante </label>
+
+
+
+
+<h2>32) ¿Por qué es imposible acelerar una partícula con masa en reposo finita a la velocidad de la luz?. </h2>
+<label for="sub_string"><input type="radio" name="p38" value="10" id="sub_string"/> a) Es necesaria una suma infinita de trabajo </label>
+<label for="sub_join"><input type="radio" name="p38" value="0" id="sub_join"/> b) Se necesita un éter, donde viajaría con gran rapidez </label>
+<label for="sub_info"><input type="radio" name="p38" value="0" id="sub_info" />  c) Es necesaria una temperatura infinita </label>
+<label for="sub_condition"><input type="radio" name="p38" value="0" id="sub_condition" /> d) Por la carencia de equipo adecuado </label>
+
+
+
+
+<h2>33) La energía de disociación de la molécula de CO es de 11 eV, es decir, su función de trabajo es de 11 eV. ¿Cuál es la frecuencia mínima de la radiación para romper este enlace?. </h2>
+<label for="sub_string"><input type="radio" name="p39" value="10" id="sub_string"/> a) 2.66 X 10<sup>15</sup> Hz </label>
+<label for="sub_join"><input type="radio" name="p39" value="0" id="sub_join"/> b) 3.76 X 10<sup>-16</sup> Hz </label>
+<label for="sub_info"><input type="radio" name="p39" value="0" id="sub_info" />  c) 1.17 X 10<sup>-51</sup> Hz </label>
+<label for="sub_condition"><input type="radio" name="p39" value="0" id="sub_condition" /> d) 7.29 X 10<sup>-33</sup> Hz </label>
+<label for="sub_condition"><input type="radio" name="p39" value="0" id="sub_condition" /> e) 1.66 X 10<sup>34</sup> Hz  </label>
+
+
+
+<h2>34) En el efecto fotoeléctrico, si la intensidad de un haz de luz incidente se mantiene fija, el número de fotones depende de la frecuencia. </h2>
+<label for="sub_string"><input type="radio" name="p40" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p40" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>35) Los rayos ultravioleta pueden causar quemaduras solares en la piel, mientras que la luz visible no tiene este efecto debido a que los rayos ultravioleta tienen mayor energía que la luz visible. </h2>
+<label for="sub_string"><input type="radio" name="p41" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p41" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>36) El átomo de hidrógeno tiene un electrón, sin embargo se observan muchas líneas espectrales, lo cual es debido a  </h2>
+<label for="sub_string"><input type="radio" name="p42" value="0" id="sub_string"/> a) No solo participa el electrón, sino también el núcleo </label>
+<label for="sub_join"><input type="radio" name="p42" value="0" id="sub_join"/> b) El electrón salta desde una orbita discreta de menor energía a otra de mayor </label>
+<label for="sub_info"><input type="radio" name="p42" value="10" id="sub_info" />  c) El electrón salta desde una orbita discreta de mayor energía a otra de menor </label>
+<label for="sub_condition"><input type="radio" name="p42" value="0" id="sub_condition" /> d) No se cuenta con equipo adecuado para su análisis </label>
+
+
+
+
+<h2>37) Con relación al efecto fotoeléctrico, ¿Por qué la luz azul desprende electrones de ciertas superficies fotosensibles, mientras que la luz roja no tiene efecto sobre estas superficies?. </h2>
+<label for="sub_string"><input type="radio" name="p43" value="0" id="sub_string"/> a) Debido a que la luz roja tiene menor intensidad que la azul </label>
+<label for="sub_join"><input type="radio" name="p43" value="0" id="sub_join"/> b) Debido a que la luz azul tiene mayor intensidad que la azul </label>
+<label for="sub_info"><input type="radio" name="p43" value="10" id="sub_info" />  c) Debido a que la luz roja tiene menor frecuencia que la azul </label>
+<label for="sub_condition"><input type="radio" name="p43" value="0" id="sub_condition" /> d) Debido a que la luz azul tiene mayor frecuencia y mayor intensidad que la azul </label>
+<label for="sub_condition"><input type="radio" name="p43" value="0" id="sub_condition" /> e) Debido a que la  luz roja tiene menor frecuencia y menor intensidad que la azul  </label>
+
+
+
+
+<h2>38) Un haz intenso de luz azul desprende más electrones de una superficie fotosensible que un haz tenue de luz azul de la misma frecuencia. </h2>
+<label for="sub_string"><input type="radio" name="p44" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p44" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+
+
+<h2>39) De los siguientes fenómenos y modelo atómico, ¿Cuál es la opción que no tiene relación con el concepto de fotón en el contexto corpuscular de la luz?</h2>
+<label for="sub_string"><input type="radio" name="p45" value="10" id="sub_string"/> a) El modelo de Bohr del átomo de hidrógeno </label>
+<label for="sub_join"><input type="radio" name="p45" value="0" id="sub_join"/> b) El efecto fotoeléctrico </label>
+<label for="sub_info"><input type="radio" name="p45" value="0" id="sub_info" />  c) El efecto Compton </label>
+
+
+
+
+
+<h1><h1>→Fin de las preguntas</h1>
+
+<p>Antes de dar click en el botón para calificar, por favor revise que todas sus respuestas estén seleccionadas. 
+
+<p>En caso de que alguna o algunas preguntas queden sin responder, el sistema "borrará" todas las respuestas seleccionadas. Para corregir esta situación, es suficiente con regresar a la página dando click en el botón ← (regresar una página) y ahí estarán todas las opciones seleccionadas sin ningún problema, sin perderse y como habían sido seleccionadas.
+ 
+<p>Si es posible, guarde o tenga anotadas sus respuestas en un lugar seguro. </p>
+
+<button type="submit" value="Submit">Calificar</button>
+
+</form>
+
+
+<p>En escala de 0 a 10, la calificación es: <span id="grade">__</span></p> 
+<p id="grade2"></p>
+
+
+
+
+
+<script>
+document.getElementById("form1").onsubmit=function() {
+	    p2 = parseInt(document.querySelector('input[name = "p2"]:checked').value);
+	    p3 = parseInt(document.querySelector('input[name = "p3"]:checked').value);
+	    p4 = parseInt(document.querySelector('input[name = "p4"]:checked').value);
+	    p5 = parseInt(document.querySelector('input[name = "p5"]:checked').value);
+	    p6 = parseInt(document.querySelector('input[name = "p6"]:checked').value);
+	    p7 = parseInt(document.querySelector('input[name = "p7"]:checked').value);
+	    p10 = parseInt(document.querySelector('input[name = "p10"]:checked').value);
+	    p11 = parseInt(document.querySelector('input[name = "p11"]:checked').value);
+	    p12 = parseInt(document.querySelector('input[name = "p12"]:checked').value);
+	    p13 = parseInt(document.querySelector('input[name = "p13"]:checked').value);
+	    p14 = parseInt(document.querySelector('input[name = "p14"]:checked').value);
+	    p15 = parseInt(document.querySelector('input[name = "p15"]:checked').value);
+	    p16 = parseInt(document.querySelector('input[name = "p16"]:checked').value);
+	    p17 = parseInt(document.querySelector('input[name = "p17"]:checked').value);
+	    p18 = parseInt(document.querySelector('input[name = "p18"]:checked').value);
+	    p20 = parseInt(document.querySelector('input[name = "p20"]:checked').value);
+	    p21 = parseInt(document.querySelector('input[name = "p21"]:checked').value);
+	    p22 = parseInt(document.querySelector('input[name = "p22"]:checked').value);
+	    p23 = parseInt(document.querySelector('input[name = "p23"]:checked').value);
+	    p24 = parseInt(document.querySelector('input[name = "p24"]:checked').value);
+	    p25 = parseInt(document.querySelector('input[name = "p25"]:checked').value);
+	    p26 = parseInt(document.querySelector('input[name = "p26"]:checked').value);
+	    p27 = parseInt(document.querySelector('input[name = "p27"]:checked').value);
+	    p28 = parseInt(document.querySelector('input[name = "p28"]:checked').value);
+	    p29 = parseInt(document.querySelector('input[name = "p29"]:checked').value);
+	    p30 = parseInt(document.querySelector('input[name = "p30"]:checked').value);
+	    p31 = parseInt(document.querySelector('input[name = "p31"]:checked').value);
+	    p32 = parseInt(document.querySelector('input[name = "p32"]:checked').value);
+	    p33 = parseInt(document.querySelector('input[name = "p33"]:checked').value);
+	    p34 = parseInt(document.querySelector('input[name = "p34"]:checked').value);
+	    p36 = parseInt(document.querySelector('input[name = "p36"]:checked').value);
+	    p38 = parseInt(document.querySelector('input[name = "p38"]:checked').value);
+	    p39 = parseInt(document.querySelector('input[name = "p39"]:checked').value);
+	    p40 = parseInt(document.querySelector('input[name = "p40"]:checked').value);
+	    p41 = parseInt(document.querySelector('input[name = "p41"]:checked').value);
+	    p42 = parseInt(document.querySelector('input[name = "p42"]:checked').value);
+	    p43 = parseInt(document.querySelector('input[name = "p43"]:checked').value);
+	    p44 = parseInt(document.querySelector('input[name = "p44"]:checked').value);
+	    p45 = parseInt(document.querySelector('input[name = "p45"]:checked').value);
+
+
+
+	   result = (p2 + p3 + p4 + p5 + p6 + p7 + p10 + p11 + p12 + p13 + p14 + p15 + p16 + p17 + p18 + p20 + p21 + p22 + p23 + p24 + p25 + p26 + p27 + p28 + p29 + p30 + p31 + p32 + p33 + p34 + p36 + p38 + p39 + p40 + p41 + p42 + p43 + p44 + p45)/39;
+
+
+
+	document.getElementById("grade").innerHTML = result;
+
+ grading = [
+	   {score:00/39,feedback:"0 aciertos obtenidos. INSUFICIENTE"},
+	   {score:10/39,feedback:"1 acierto obtenido. INSUFICIENTE"},
+	   {score:20/39,feedback:"2 aciertos obtenidos. INSUFICIENTE"},
+	   {score:30/39,feedback:"3 aciertos obtenidos. INSUFICIENTE"},
+	   {score:40/39,feedback:"4 aciertos obtenidos. INSUFICIENTE"},
+	   {score:50/39,feedback:"5 aciertos obtenidos. INSUFICIENTE"},
+	   {score:60/39,feedback:"6 aciertos obtenidos. INSUFICIENTE"},
+	   {score:70/39,feedback:"7 aciertos obtenidos. INSUFICIENTE"},
+	   {score:80/39,feedback:"8 aciertos obtenidos. INSUFICIENTE"},
+	   {score:90/39,feedback:"9 aciertos obtenidos. INSUFICIENTE"},
+	   {score:100/39,feedback:"10 aciertos obtenidos. INSUFICIENTE"},
+	   {score:110/39,feedback:"11 aciertos obtenidos. INSUFICIENTE"},
+	   {score:120/39,feedback:"12 aciertos obtenidos. INSUFICIENTE"},
+	   {score:130/39,feedback:"13 aciertos obtenidos. INSUFICIENTE"},
+	   {score:140/39,feedback:"14 aciertos obtenidos. INSUFICIENTE"},
+	   {score:150/39,feedback:"15 aciertos obtenidos. INSUFICIENTE"},
+	   {score:160/39,feedback:"16 aciertos obtenidos. INSUFICIENTE"},
+	   {score:170/39,feedback:"17 aciertos obtenidos. INSUFICIENTE"},
+	   {score:180/39,feedback:"18 aciertos obtenidos. INSUFICIENTE"},
+	   {score:190/39,feedback:"19 aciertos obtenidos. INSUFICIENTE"},
+	   {score:200/39,feedback:"20 aciertos obtenidos. INSUFICIENTE"},
+	   {score:210/39,feedback:"21 aciertos obtenidos. INSUFICIENTE"},
+	   {score:220/39,feedback:"22 aciertos obtenidos. SUFICIENTE"},
+	   {score:230/39,feedback:"23 aciertos obtenidos. SUFICIENTE"},
+	   {score:240/39,feedback:"24 aciertos obtenidos. SUFICIENTE"},
+	   {score:250/39,feedback:"25 aciertos obtenidos. SUFICIENTE"},
+	   {score:260/39,feedback:"26 aciertos obtenidos. REGULAR"},
+	   {score:270/39,feedback:"27 aciertos obtenidos. REGULAR"},
+	   {score:280/39,feedback:"28 aciertos obtenidos. REGULAR"},
+	   {score:290/39,feedback:"29 aciertos obtenidos. REGULAR"},
+	   {score:300/39,feedback:"30 aciertos obtenidos. BIEN"},
+	   {score:310/39,feedback:"31 aciertos obtenidos. BIEN"},
+	   {score:320/39,feedback:"32 aciertos obtenidos. BIEN"},
+	   {score:330/39,feedback:"33 aciertos obtenidos. BIEN"},
+	   {score:340/39,feedback:"34 aciertos obtenidos. MUY BIEN"},
+	   {score:350/39,feedback:"35 aciertos obtenidos. MUY BIEN"},
+	   {score:360/39,feedback:"36 aciertos obtenidos. MUY BIEN"},
+	   {score:370/39,feedback:"37 aciertos obtenidos. MUY BIEN"},
+	   {score:380/39,feedback:"38 aciertos obtenidos. EXCELENTE"},
+	   {score:390/39,feedback:"39 aciertos obtenidos. EXCELENTE"}
+	   ];
+
+
+
+
+for(i=0; i<grading.length; i++) {
+    if(result == grading[i].score) {
+    result2 = grading[i].feedback + "<br /> <br /> Respuestas Correctas: <br /> <br />  1: El efecto fotoeléctrico consiste en la expulsión de electrones de una superficie metálica irradiada con luz. En este efecto un solo fotón interactúa con un solo electrón y lo expulsa del material. El fotón desaparece. Respuesta correcta en el inciso d). <br /> <br />  2: En el modelo de Bohr del átomo de hidrógeno, la energía y el momento angular del electrón están cuantizadas. Cuando el átomo se encuentra en su estado base su electrón se encuentra en el nivel de más baja energía. A esta energía le corresponde la menor órbita posible alrededor del núcleo, como se indica en el inciso b). <br /> <br />  3: Las líneas espectrales del átomo de hidrógeno, se originan por el salto de los electrones entre las diversas capas del átomo. El modelo de Bohr predice las líneas espectrales del hidrógeno. Uno de sus postulados asegura que la radiación electromagnética sólo ocurre cuando un electrón pasa de una órbita permitida a otra de menor energía, como se indica en el inciso d). <br /> <br />  4: Los saltos sólo ocurren desde un nivel de mayor energía a otro de menor energía. La frecuencia del fotón emitido es proporcional al factor (n<sup>-2</sup> – m<sup>-2</sup>), donde n corresponde al nivel inferior y m al nivel superior. De esta manera el fotón emitido con la frecuencia más alta corresponde al de la transición 3 a 2, como se indica en el inciso b). <br /> <br />  5: El color rojo corresponde a un rango de longitudes de onda de 625 a 700 nm; el color azul a un rango de 450 a 520 nm; el color amarillo a un rango de 560 a 600 nm; el verde a un rango de 520 a 560 nm; y el naranja a un rango de 600 a 625 nm. Por lo que el de menor longitud de onda y mayor frecuencia corresponde al color azul, como se indica en inciso b). <br /> <br />  6: Solución: E = h c/λ = (6.63 X 10<sup>-34</sup> J s)(299 792 458 m/s)/(625 X 10<sup>-9</sup> m) = 3.18 X 10<sup>-19</sup> J, por lo que la respuesta correcta es el inciso a). <br /> <br />  7: Los gases calientes pueden producir un espectro de emisión en luz visible, como se indica en el inciso b). <br /> <br />  8: De acuerdo a la mecánica cuántica la luz y la materia exhiben ambas propiedades ondulatorias y propiedades corpusculares. Todas las partículas de materia exhiben propiedades ondulatorias, como se indica en el inciso d). <br /> <br />  9: Falso. Pues de acuerdo a la mecánica cuántica el electrón en el átomo de hidrógeno ocupa una capa parecida a una nube de posiciones probables, centrada en el núcleo (protón). <br /> <br />  10: Falso, pues la naturaleza ondulatoria de los electrones fue demostrada mediante el experimento de difracción de rayos X. <br /> <br />  11: La longitud de onda de De Broglie, o longitud de onda material es demasiado pequeña. Para una persona que camina con una velocidad de 1 m/s, la longitud de onda de De Broglie es de alrededor de 10<sup>-35</sup> m; por lo que no hay manera de observarla, como se indica en el inciso d). <br /> <br />  12: Usando la ecuación λ = h/mv = (6.63 X 10<sup>-34</sup> J s) / (9.1 X 10<sup>-31</sup> kg)(10<sup>7</sup> m/s) = 7.29 X 10<sup>-11</sup> m, como se indica en el inciso b). <br /> <br />  13: Cuando Newton desarrolló las leyes de movimiento, asumió que el espacio es exactamente plano y uniforme, sin distorsiones en cualquier lugar. También asumió que el tiempo es absoluto. Por lo que dentro del paradigma Newtoniano el tiempo y la distancia son siempre las mismas para todos los observadores, como se muestra en el inciso c). <br /> <br />  14: Dentro de la relatividad especial se conocen dos postulados: 1) todas las leyes de la física son consistentes dentro de todos los sistemas de referencia inercial, 2) la velocidad de la luz en espacio vacío es la misma para todos los observadores. Los tiempos y las distancias pueden ser diferentes para distintos observadores, dependiendo su velocidad y localización; distinguiéndose la contracción de la longitud y la dilatación del tiempo. La opción correcta es el inciso d). <br /> <br />  15: La longitud del lápiz en un marco en reposo corresponde a la longitud propia, es decir, cuando el lápiz está en reposo relativo a un observador. Una longitud medida por un observador en un marco en movimiento sería menor. A este efecto se le conoce como la contracción de la longitud. La opción correcta es el inciso c). <br /> <br />  16: Falso. La materia no se puede mover con la velocidad de la luz, mucho menos con la velocidad de la luz elevada al cuadrado (¡que no es una velocidad!). La ecuación E = mc<sup>2</sup> se refiere a que la energía y la masa son equivalentes. <br /> <br />  17: Verdadero. La dilatación del tiempo se refiere a que el tiempo transcurre más lentamente en un sistema en movimiento en comparación con uno que se encuentra en reposo relativo. <br /> <br />  18: Falso. Cuando los observadores A y B tienen movimientos relativos distintos entre si, cada uno ve que el tiempo transcurre con más lentitud en el marco de referencia del otro. Por tanto, sus mediciones del tiempo no coinciden. <br /> <br />  19: Verdadero. El número de electrones desprendidos depende del número de fotones incidentes. <br /> <br />  20: Falso. El número de electrones desprendidos depende de la intensidad de la luz incidente y no de la frecuencia. <br /> <br />  21: La cuantización significa la división o construcción de una cantidad (o magnitud física) en partes que se distinguen entre sí como múltiplos enteros. Por lo tanto que una cantidad esté cuantizada se refiere a que se puede expresar en múltiplos enteros de otra. La opción correcta es el inciso c). <br /> <br />  22: Falso. Pues la longitud de onda de De Broglie, se escribe como λ = h/mv, lo que quiere decir que dicha longitud de onda es inversamente proporcional a la velocidad de la partícula. Por lo que si se tiene una mayor velocidad, entonces se tendrá una longitud de onda de De Broglie inferior. <br /> <br />  23: Falso. Pues en la teoría espacial de la relatividad, las mediciones de espacio, tiempo y masa son relativas. <br /> <br />  24: Falso. Pues uno de los dos postulados de la teoría de la relatividad señala que la velocidad de la luz en el vacío es la misma para todos los observadores, es decir, es una constante. <br /> <br />  25: Falso. Pues de acuerdo a uno de los postulados de la relatividad especial todas las leyes de la física tienen la misma forma en todos los marcos inerciales. <br /> <br />  26: Los postulados del modelo de Bohr son: 1. El electrón nada más se mueve en determinadas órbitas circulares, llamadas estados estacionarios. Este movimiento se puede describir en términos clásicos. 2. La radiación nada más ocurre cuando un electrón pasa de una órbita permitida a otra de energía menor. 3. El ímpetu angular del electrón está restringido a múltiplos enteros de h/2π, es decir, el ímpetu angular está cuantizado. De acuerdo al primer postulado, el movimiento del electrón en las órbitas circulares, se puede describir en términos clásicos, por lo que la opción correcta es el inciso b). <br /> <br />  27: Falso, porque la velocidad de la luz es la misma que si el observador estuviera a bordo del tren. Esto se debe a que la rapidez de la luz es la misma en cualquier marco de referencia. La rapidez de la luz tiene el mismo valor en cualquiera que sea el movimiento de la fuente o el del observador. <br /> <br />  28: Falso. Pues el primer postulado de la relatividad especial asegura que todas las leyes de la naturaleza (mecánica, electromagnetismo, termodinámica y las restantes leyes de la física) son las mismas en todos los marcos de referencia con movimiento uniforme. <br /> <br />  29: Falso. Si pudiéramos viajar a la velocidad de la luz, veríamos que el haz se aleja de nosotros a la velocidad de la luz. Esto es debido al segundo postulado de la relatividad especial que dice que: la rapidez de la luz en el espacio vacío tendrá siempre el mismo valor sin importar el movimiento de la fuente ni el movimiento del observador. <br /> <br />  30: Verdadero. La energía en reposo está dada por la ecuación E = mc<sup>2</sup>. Representa la suma de todas las energías internas del cuerpo. Ésta incluye la energía eléctrica, la energía nuclear, la energía térmica, etc. <br /> <br />  31: La masa del Sol disminuye. El Sol radia energía a razón de 3.9 X 10 <sup>26</sup> W. La masa del Sol es de 2 X 10<sup>30</sup> kg. De acuerdo a la ecuación E = m c<sup>2</sup>, entonces su masa decrece 4.33 X 10<sup>9</sup> kg por segundo. La opción correcta es el inciso b). <br /> <br />  32: La energía cinética relativista de una partícula se define como la diferencia entre su energía total, E = mc<sup>2</sup>, y la energía en reposo K = E – m0 c<sup>2</sup> = m0 c<sup>2</sup> (γ-1). Cuando la velocidad v de la partícula se aproxima al valor de c, el factor γ y la energía cinética tienden al infinito. Para llegar a este valor es necesaria una suma infinita de trabajo, como se indica en el inciso a). <br /> <br />  33: La función de trabajo está dada por Φ = h f, entonces la frecuencia necesaria para romper el enlace o frecuencia umbral es f = Φ/h = (11 eV)/(6.626 X 10<sup>-34</sup> J s) = (1.76 X 10<sup>-18</sup> J)/(6.626 X 10<sup>-34</sup> J s) = 2.66 X 10<sup>15</sup> Hz. La opción correcta es el inciso a). <br /> <br />  34: Falso. El número de fotones depende sólo de la intensidad de la luz, y no de la frecuencia. <br /> <br />  35: Verdadero. Los rayos ultravioleta tienen una menor longitud de onda que las ondas de luz visible; por lo que los rayos ultravioleta tienen una mayor frecuencia que las de luz visible, y aplicando la ecuación E = hf, encontramos que la radiación ultravioleta tiene más energía. <br /> <br />  36: El espectro del átomo de hidrógeno puede ser explicado por el modelo de Bohr. Este modelo asume que el electrón en el átomo de hidrógeno puede saltar desde una o varias órbitas discretas de mayor energía, o estado estacionario, a otra de menor energía, emitiendo o absorbiendo energía que toma la forma de un fotón. Esto se indica en el inciso c). <br /> <br />  37: La luz de baja frecuencia (la roja) no desprende electrones, mientras que la luz de alta frecuencia (la azul) desprende electrones debido a que para que exista desprendimiento de electrones, la función de trabajo debe considerar una frecuencia umbral mínima necesaria. En este caso, la luz azul tiene una frecuencia necesaria para producir desprendimiento de electrones de la superficie. Por lo que la respuesta correcta es el inciso c). <br /> <br />  38: Verdadero. Un haz de luz azul intenso desprende más electrones que un haz de luz tenue de la misma frecuencia (también azul). El número de electrones desprendidos depende de la intensidad de la luz. <br /> <br />  39: El efecto fotoeléctrico y el efecto compton corresponden a evidencias del concepto corpuscular del fotón. El efecto fotoeléctrico es el desprendimiento de electrones de ciertos metales en los que incide la luz. En el efecto fotoeléctrico un solo fotón interactúa con un solo electrón y lo expulsa del material. El efecto Compton representa una evidencia adicional para el concepto de fotón analizado la dispersión de un fotón por un electrón. Por su parte el modelo atómico de Bohr predice las líneas espectrales del hidrógeno. Considera que un electrón se mueve en órbitas circulares estables, la radiación ocurre cuando un electrón salta de una órbita a otra y que el ímpetu angular del electrón está cuantizado. Por lo que la opción correcta es el inciso a).";
+	  }
+	  }
+
+
+
+
+ document.getElementById("grade2").innerHTML = result2;
+
+return false; // required to not refresh the page; just leave this here
+} //this ends the submit function
+
+
+
+
+</script>
+
+
+</div>
+</body>
+</html>
+
+
+
+
